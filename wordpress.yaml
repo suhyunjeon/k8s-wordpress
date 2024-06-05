@@ -48,14 +48,14 @@ spec:
       - image: wordpress:6.5.3-apache
         name: wordpress
         env:
-        - name: WORDPRESS_DB_HOST
+        - name: DB_HOST
           value: wordpress-mysql
-        - name: WORDPRESS_DB_PASSWORD
+        - name: DB_PASSWORD
           valueFrom:
             secretKeyRef:
               name: mysql-pass
               key: password
-        - name: WORDPRESS_DB_USER
+        - name: DB_USER
           value: wordpress
         ports:
         - containerPort: 80
