@@ -5,12 +5,12 @@ Minikube VM을 사용하여 local에 kubernetest를 spin up합니다.
 # Getting Started
 minikube 시작  
 ```
-$ minikube start
+$ minikube start --driver=docker
 ```
 
 kubernetest pod 전체 확인  
 ```
-$ kubectl get pods -all-namespace
+$ kubectl get pods --all-namespaces
 
 NAMESPACE     NAME                               READY   STATUS    RESTARTS       AGE
 kube-system   coredns-5dd5756b68-gbnw5           1/1     Running   0              3h5m
