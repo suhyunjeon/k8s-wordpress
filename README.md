@@ -1,6 +1,6 @@
 # k8s-wordpress
-Minikube VM을 사용하여 local에 kubernetest를 spin up합니다. 
-이 소스코드는 k8s기반 wordpress 구축 예제입니다. 
+Minikube VM을 사용하여 local에 kubernetest를 spin up합니다. 
+이 소스코드는 k8s기반 wordpress 구축 예제입니다. 
 
 # Getting Started
 minikube 시작  
