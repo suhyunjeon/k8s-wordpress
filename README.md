@@ -22,6 +22,11 @@ kube-system   kube-scheduler-minikube            1/1     Running   0            
 kube-system   storage-provisioner                1/1     Running   0              3h5m
 ```
 
+Secret 생성  
+```
+bectl create secret generic mysql-pass --from-literal=password=pwd
+```
+
 YAML file 실행  
 ```
 $ kubectl apply -f ./
