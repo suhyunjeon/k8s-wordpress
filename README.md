@@ -10,7 +10,7 @@ $ minikube start
 
 kubernetest pod 전체 확인  
 ```
-$kubectl get pods -all-namespace
+$ kubectl get pods -all-namespace
 
 NAMESPACE     NAME                               READY   STATUS    RESTARTS       AGE
 kube-system   coredns-5dd5756b68-gbnw5           1/1     Running   0              3h5m
