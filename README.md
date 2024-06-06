@@ -24,7 +24,7 @@ kube-system   storage-provisioner                1/1     Running   0            
 
 Secret 생성  
 ```
-bectl create secret generic mysql-pass --from-literal=password=pwd
+kubectl create secret generic mysql-pass --from-literal=password=pwd
 ```
 
 YAML file 실행  
